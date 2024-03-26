@@ -38,14 +38,22 @@ nav a {
   font-family: "Noto Sans JP", sans-serif;
 }
 /* .menu_bar{
-  
+
 } */
+main{
+  background-color: goldenrod;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+}
 /* ナビゲーションメニューのMyProfileの部分 */
 .home {
   border: 1px solid black;
-  padding: 0px 20px;
-  margin-left: 20px;
+  /* padding: 0px 20px;
+  margin-left: 20px; */
   background-color: white;
+  display: flex;
+  justify-content: right;
 }
 
 /* .menu{
@@ -149,7 +157,7 @@ img {
 /* フッター */
 footer p {
   text-align: center;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -233,9 +241,7 @@ footer{
   background-color: green;
  height: 100px;
  margin: 0;
-}
-
-footer > p {
-  /* margin-top: 30px; */
-
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
